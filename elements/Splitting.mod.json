@@ -1,0 +1,25 @@
+{
+  "_fv": 66,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Splitting",
+    "achievementDescription": "Placed the Splitter",
+    "achievementIcon": {
+      "value": "CUSTOM:Splitter"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 15,
+    "achievementType": "task",
+    "parent": {
+      "value": "story/upgrade_tools"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"block_placed\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Splitter</field></block></value></block></next></block></xml>"
+  }
+}

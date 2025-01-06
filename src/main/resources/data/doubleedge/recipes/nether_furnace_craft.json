@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "c": {
+      "item": "minecraft:furnace"
+    },
+    "d": {
+      "item": "minecraft:netherrack"
+    },
+    "e": {
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "result": {
+    "item": "doubleedge:nether_furnace",
+    "count": 1
+  }
+}

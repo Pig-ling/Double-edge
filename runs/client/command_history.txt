@@ -1,0 +1,2 @@
+/locate structure doubleedge:double_edge_village_house
+/tp @s -896 ~ -688

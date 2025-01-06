@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "crafts",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Blocks.ENCHANTING_TABLE"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "Blocks.SAND"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "Blocks.SAND"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      },
+      {
+        "value": "Blocks.WOODEN_SLAB"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Splitter"
+    },
+    "name": "spitters",
+    "namespace": "mod"
+  }
+}

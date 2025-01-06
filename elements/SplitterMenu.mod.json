@@ -1,0 +1,162 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 191,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_splitter",
+          "text": {
+            "fixedValue": "Splitter"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "-->"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Craftingsaw"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_split_weapon",
+          "text": "Split Weapon",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CrafterInput"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_in_the_first_spot_place_a_tool",
+          "text": {
+            "fixedValue": "In the first spot, place a tool or armor, make sure the durability is above 70%."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_in_the_second_spot_place_an_ende",
+          "text": {
+            "fixedValue": "In the second spot place a saw, to get a saw, place a netherite scrap in the first slot."
+          },
+          "width": 24,
+          "height": 24,
+          "x": 177,
+          "y": 71
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "Raw",
+          "text": "Get materials instead of 2 half durable items (swords/axes only)",
+          "x": 42,
+          "y": 206
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nether_furnace",
+          "text": {
+            "fixedValue": "Nether Furnace"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 177,
+          "y": 44
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 141,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 267,
+          "y": 71
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_furnacescreen",
+          "image": "furnacescreen.png",
+          "hoveredImage": "furnaceuse.png",
+          "onClick": {
+            "name": "Placein"
+          },
+          "x": 204,
+          "y": 80
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Output Warnings go Here",
+          "name": "Tquery",
+          "width": 120,
+          "height": 20,
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_you_can_rapidly_press_the_button",
+          "text": {
+            "fixedValue": "You can rapidly press the button to smelt multiple iitems at once"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 258,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "doubleedge:splitter"
+    },
+    "title": {
+      "translate": "advancements.splitting.title"
+    },
+    "description": {
+      "translate": "advancements.splitting.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "splitting_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "doubleedge:splitter"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  },
+  "parent": "minecraft:story/upgrade_tools"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doubleedge:block/splitter2",
+    "up": "doubleedge:block/splitter3",
+    "north": "doubleedge:block/splitter1",
+    "east": "doubleedge:block/splitter",
+    "south": "doubleedge:block/splitter1",
+    "west": "doubleedge:block/splitter",
+    "particle": "doubleedge:block/splitter2"
+  },
+  "render_type": "solid"
+}

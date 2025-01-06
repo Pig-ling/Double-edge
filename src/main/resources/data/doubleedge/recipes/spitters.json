@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafts",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:enchanting_table"
+    },
+    "c": {
+      "tag": "minecraft:sand"
+    },
+    "d": {
+      "item": "minecraft:smooth_stone"
+    },
+    "e": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "f": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "doubleedge:splitter",
+    "count": 1
+  }
+}

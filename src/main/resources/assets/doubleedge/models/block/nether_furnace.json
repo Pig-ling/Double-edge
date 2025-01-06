@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doubleedge:block/furnacebottom",
+    "up": "doubleedge:block/topfurnace",
+    "north": "doubleedge:block/furnaceside",
+    "east": "doubleedge:block/furnaceface",
+    "south": "doubleedge:block/furnaceside",
+    "west": "doubleedge:block/furnaceside",
+    "particle": "doubleedge:block/furnacebottom"
+  },
+  "render_type": "solid"
+}
