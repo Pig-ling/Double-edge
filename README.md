@@ -5,6 +5,8 @@
 # Double-Edge: Split tools and Armor
 Split tools and Armor
 
+This Github page may or may not be updated to represent the latest version
+
 Double Edge is a Minecraft Mod Whereby you can split tools and armor for a price of half the durability, Both copies retain original enchantments, you can also choose to turn your tools into the original items used to make them using a block called the splitter
 
 For the OpenSource Code
